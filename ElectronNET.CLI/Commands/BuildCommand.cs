@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -202,8 +202,9 @@ namespace ElectronNET.CLI.Commands
                 {
                     electronArch = parser.Arguments[_paramElectronArch][0];
                 }
-
-                string electronVersion = "13.1.5";
+               // electronArch = "x64";
+                string electronVersion = "9.4.4";
+                //string electronVersion = "10.0.1";
                 if (parser.Arguments.ContainsKey(_paramElectronVersion))
                 {
                     electronVersion = parser.Arguments[_paramElectronVersion][0];
@@ -224,6 +225,7 @@ namespace ElectronNET.CLI.Commands
                 {
                     manifestFileName = parser.Arguments[_manifest].First();
                 }
+
 
                 ProcessHelper.CmdExecute(
                     string.IsNullOrWhiteSpace(version)

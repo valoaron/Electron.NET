@@ -13,7 +13,7 @@
     },
     "dependencies": {
         "dasherize": "^2.0.0",
-        "electron-updater": "^4.6.5",
+        "electron-updater": "^4.3.9",
         "image-size": "^1.0.0",
         "portscanner": "^2.2.0",
         "socket.io": "^4.4.1"
@@ -21,8 +21,8 @@
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.18.0",
         "@typescript-eslint/parser": "^5.18.0",
-        "electron": "^18.0.2",
-        "eslint": "^8.12.0",
+        "electron": "9.4.4",
+        "eslint": "8.12.0",
         "typescript": "^4.6.3"
     }
 }

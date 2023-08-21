@@ -1,6 +1,5 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.browserViewMediateService = exports.browserViewApi = void 0;
 const electron_1 = require("electron");
 const browserViews = (global['browserViews'] = global['browserViews'] || []);
 let browserView, electronSocket;
